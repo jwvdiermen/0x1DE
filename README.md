@@ -17,7 +17,7 @@ So what can you expect?
 * Additional I/O when documented by Notch.
 * And much more...
 
-## ToDo ##
+## ToDo
 
 Below is a very rough list of things to do, in appearing order:
 
@@ -30,3 +30,8 @@ Below is a very rough list of things to do, in appearing order:
 * Implement a virtual keyboard.
 * Make a more fancy code editor.
 * More to follow...
+
+# License
+
+I don't have a lot of experiences with licenses and open-source projects. I guess I'll use the GPL license.
+More on this later...
