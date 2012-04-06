@@ -23,7 +23,8 @@ Below is a very rough list of things to do, in appearing order:
 
 * Decouple the Virtual Machine found [here](https://github.com/jwvdiermen/DCPU-16), into a class library.
 * Create the basic user interface.
-* Add a compiler.
+* Create a disassembler.
+* Create a compiler.
 * Create a simple debugger, allowing to go step by step through the code. You'll have access to all the processor values and see the current executing line.
 * Add functionality to easy add memory mapped I/O.
 * Implement a virtual screen.
