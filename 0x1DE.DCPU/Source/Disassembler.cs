@@ -8,7 +8,7 @@ namespace OxIDE.DCPU
 	/// <summary>
 	/// Represents a disassembled <see cref="Program" />.
 	/// </summary>
-	public class Disassemble
+	public class Disassembler
 	{
 		#region Nested types
 
@@ -140,7 +140,7 @@ namespace OxIDE.DCPU
 
 		#region Constructors
 
-		private Disassemble(List<Instruction> instructionList)
+		private Disassembler(List<Instruction> instructionList)
 		{
 			m_instructionList = instructionList;
 		}
@@ -172,7 +172,7 @@ namespace OxIDE.DCPU
 		/// </summary>
 		/// <param name="program">The program.</param>
 		/// <returns>The disassembled program.</returns>
-		public static Disassemble Create(Program program)
+		public static Disassembler Create(Program program)
 		{
 			var instructions = new List<Instruction>();
 			var buffer = program.Buffer;
@@ -229,7 +229,7 @@ namespace OxIDE.DCPU
 				}
 			}
 
-			return new Disassemble(instructions);
+			return new Disassembler(instructions);
 		}
 
 		private static void ReadNextWord(ushort[] buffer, int value, out ushort nextWord, List<ushort> originalCode, ref int counter)

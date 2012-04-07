@@ -13,7 +13,7 @@ using FastColoredTextBoxNS;
 using OxIDE.DCPU;
 using OxIDE.Support;
 
-namespace OxIDE.IDE
+namespace OxIDE.DCPU.ASM
 {
 	/// <summary>
 	/// A document panel used for showing the disassembled code of a loaded program.
@@ -46,7 +46,7 @@ namespace OxIDE.IDE
 		/// <summary>
 		/// Gets the disassembled program currently displayed.
 		/// </summary>
-		public Disassemble Disassemble
+		public Disassembler Disassemble
 		{
 			get;
 			private set;
@@ -63,7 +63,7 @@ namespace OxIDE.IDE
 		public void LoadProgram(OxIDE.DCPU.Program program)
 		{
 			// Disassemble the program.
-			this.Disassemble = Disassemble.Create(program);
+			this.Disassemble = Disassembler.Create(program);
 
 			// Populate the content box.
 			this.ContentBox.Clear();

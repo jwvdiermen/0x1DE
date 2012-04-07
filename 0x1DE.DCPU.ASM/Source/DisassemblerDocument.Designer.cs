@@ -1,4 +1,4 @@
-﻿namespace OxIDE.IDE
+﻿namespace OxIDE.DCPU.ASM
 {
 	partial class DisassemblerDocument
 	{

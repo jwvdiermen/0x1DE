@@ -38,6 +38,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Source\GenericEvent.cs" />
+    <Compile Include="Source\ISavableDocument.cs" />
     <Compile Include="Source\StringHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

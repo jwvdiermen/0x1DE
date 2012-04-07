@@ -39,7 +39,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Source\BasicOpcodes.cs" />
     <Compile Include="Source\CPU.cs" />
-    <Compile Include="Source\Disassemble.cs" />
+    <Compile Include="Source\Disassembler.cs" />
     <Compile Include="Source\ExtendedOpcodes.cs" />
     <Compile Include="Source\Program.cs" />
     <Compile Include="Source\VirtualMachine.cs" />
