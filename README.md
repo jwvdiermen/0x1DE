@@ -1,4 +1,4 @@
-# C# / .NET IDE for the DCPU-16
+# (Abandoned) C# / .NET IDE for the DCPU-16
 
 A C# / .NET based IDE mainly focussed on the DCPU-16, a CPU used by the new game [0x10c](http://0x10c.com/) written by Notch.
 
